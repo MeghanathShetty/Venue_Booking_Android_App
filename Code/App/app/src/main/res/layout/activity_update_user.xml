@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="@color/Blue5">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:paddingHorizontal="15dp"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="60dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="UPDATE PROFILE"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="325dp"
+        android:layout_height="44dp"
+        android:background="@color/white"
+        android:enabled="false"
+        android:padding="10dp"
+        android:ems="10"
+        android:hint=" email"
+        android:inputType="textEmailAddress"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/editTextTextName"
+        android:layout_width="325dp"
+        android:layout_height="44dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint=" name"
+        android:padding="10dp"
+        android:inputType="textPersonName"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/editTextTextEmailAddress2"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextTextDept"
+        android:layout_width="325dp"
+        android:layout_height="44dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint=" department name"
+        android:padding="10dp"
+        android:inputType="textPersonName"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/editTextTextName"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextTextPhone"
+        android:layout_width="325dp"
+        android:layout_height="44dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint=" contact"
+        android:padding="10dp"
+        android:inputType="phone"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/editTextTextDept"
+        android:layout_marginTop="20dp"/>
+
+
+        <RelativeLayout
+            android:layout_width="325dp"
+            android:layout_below="@id/editTextTextPhone"
+            android:id="@+id/layout11"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_height="44dp">
+            <EditText
+                android:id="@+id/editTextTextPassword"
+                android:layout_width="325dp"
+                android:layout_height="44dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:padding="10dp"
+                android:hint=" enter new password"
+                android:inputType="textPassword"
+             />
+
+            <ImageButton
+                android:id="@+id/imageButtonTogglePassword"
+                android:layout_width="45dp"
+                android:layout_alignParentRight="true"
+                android:layout_height="44dp"
+                android:backgroundTint="@color/white"
+                android:scaleType="centerInside"
+                android:src="@drawable/eye" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="325dp"
+            android:id="@+id/layout22"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/layout11"
+            android:layout_marginTop="20dp"
+            android:layout_height="44dp">
+            <EditText
+                android:id="@+id/editTextTextConfirmPassword"
+                android:layout_width="325dp"
+                android:padding="10dp"
+                android:layout_height="44dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint=" confirm password"
+                android:inputType="textPassword"
+                android:layout_centerHorizontal="true" />
+
+            <ImageButton
+                android:id="@+id/imageButtonTogglePassword2"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:backgroundTint="@color/white"
+                android:scaleType="centerInside"
+                android:src="@drawable/eye"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+
+
+
+    <Button
+        android:id="@+id/updateBtn"
+        android:layout_width="143dp"
+        android:layout_height="62dp"
+        android:backgroundTint="@color/Blue1"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="UPDATE"
+        android:textSize="20dp"
+        app:cornerRadius="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/layout22"
+        android:layout_marginTop="20dp"/>
+
+    </RelativeLayout>
+    </ScrollView>
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewGoToRegister"-->
+<!--        android:layout_width="145dp"-->
+<!--        android:layout_height="38dp"-->
+<!--        android:fontFamily="sans-serif-condensed-medium"-->
+<!--        android:text=" have an account?"-->
+<!--        android:textSize="20dp"-->
+<!--        android:layout_marginLeft="105dp"-->
+<!--        android:layout_below="@id/RegisterButton"-->
+<!--        android:layout_marginTop="30dp"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/gotoLoginBtn"-->
+<!--        android:layout_width="112dp"-->
+<!--        android:layout_height="38dp"-->
+<!--        android:fontFamily="sans-serif-condensed-medium"-->
+<!--        android:text="@string/logLink"-->
+<!--        android:textSize="20dp"-->
+<!--        android:layout_toEndOf="@id/textViewGoToRegister"-->
+<!--        android:layout_alignBaseline="@id/textViewGoToRegister"/>-->
+</RelativeLayout>

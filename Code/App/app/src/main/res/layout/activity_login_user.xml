@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingHorizontal="15dp"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="@color/Blue5">
+
+
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="LOGIN"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_below="@id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:inputType="textEmailAddress"
+        android:background="@color/white"
+        android:hint="email" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@id/email"
+        android:id="@+id/layout11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:inputType="textPassword"
+            android:background="@color/white"
+            android:hint="password" />
+
+        <ImageButton
+            android:id="@+id/viewPassBtn"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignRight="@id/pass"
+            android:scaleType="centerInside"
+            android:src="@drawable/eye"
+            android:backgroundTint="@color/white" />
+    </RelativeLayout>
+
+
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingVertical="15dp"
+        android:paddingHorizontal="30dp"
+        android:layout_below="@id/layout11"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/Blue1"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="LOGIN"
+        android:textSize="20dp"
+        app:cornerRadius="10dp" />
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginBtn">
+
+        <TextView
+            android:id="@+id/textViewGoToRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="New here?"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/gotoToRegPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/textViewGoToRegister"
+            android:layout_marginStart="5dp"
+            android:layout_alignBaseline="@id/textViewGoToRegister"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/regLink"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

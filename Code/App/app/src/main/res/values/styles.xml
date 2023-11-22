@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomEditText">
+        <!-- Text color for the enabled state -->
+        <item name="android:textColor">@color/black</item>
+
+        <!-- Text color for the disabled state -->
+        <item name="android:textColorHint">@color/darkGrey</item>
+    </style>
+
+    <style name="CustomDateTextAppearance">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@drawable/date_selector</item>
+    </style>
+</resources>

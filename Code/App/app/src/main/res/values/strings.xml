@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ExploreMIT</string>
+    <string name="regLink"><a href="/">Register</a></string>
+    <string name="logLink"><a href="/">SignIn</a></string>
+
+    <string name="from_email">vehiclebreakmca@gmail.com</string>
+    <string name="from_email_pass">akeo kxox vsld yerh@#</string>
+    <string name="admin_email">meghanshetty3122@gmail.com</string>
+
+
+    <string name="red_txt1">Red indicates that the venue is fully booked on those dates</string>
+    <string name="search_query_hint">Search using relevant information</string>
+
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+</resources>

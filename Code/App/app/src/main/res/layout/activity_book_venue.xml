@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Blue5">
+
+    <!--    Header-->
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"></RelativeLayout>-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:paddingHorizontal="15dp"
+        android:paddingBottom="30dp"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="center"
+                android:text="BOOK YOUR VENUE"
+                android:textSize="35dp"
+                android:layout_marginTop="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <EditText
+                android:id="@+id/editTextTextName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@color/white"
+                android:enabled="false"
+                style="@style/CustomDateTextAppearance"
+                android:ems="10"
+                android:hint="name"
+                android:inputType="textPersonName"
+                android:layout_below="@id/textViewTitle"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp" />
+
+            <EditText
+                android:id="@+id/editTextTextDeptName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:ems="10"
+                android:padding="10dp"
+                android:hint="department name"
+                style="@style/CustomDateTextAppearance"
+                android:inputType="textPersonName"
+                android:layout_below="@id/editTextTextName"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp" />
+
+            <EditText
+                android:id="@+id/editTextTextPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:ems="10"
+                android:padding="10dp"
+                android:hint="phone"
+                android:inputType="phone"
+                style="@style/CustomDateTextAppearance"
+                android:layout_below="@id/editTextTextDeptName"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp" />
+
+            <EditText
+                android:id="@+id/editTextTextEmailAddress2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                style="@style/CustomDateTextAppearance"
+                android:background="@color/white"
+                android:padding="10dp"
+                android:ems="10"
+                android:hint="email"
+                android:inputType="textEmailAddress"
+                android:layout_below="@id/editTextTextPhone"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp" />
+
+            <EditText
+                android:id="@+id/editTextTextStartDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editTextTextEmailAddress2"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:padding="10dp"
+                android:ems="10"
+                style="@style/CustomDateTextAppearance"
+                android:layout_centerHorizontal="true"
+                android:hint="select start date"
+                android:enabled="false"
+                android:inputType="date" />
+
+            <ImageButton
+                android:id="@+id/imageButtonStartDate"
+                android:layout_width="45dp"
+                android:layout_height="48dp"
+                android:backgroundTint="@color/white"
+                android:scaleType="centerInside"
+                android:src="@drawable/date"
+                android:layout_toEndOf="@id/editTextTextStartDate"
+                android:layout_marginLeft="-50dp"
+                android:layout_alignTop="@id/editTextTextStartDate" />
+
+            <RelativeLayout
+                android:layout_below="@+id/editTextTextStartDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:gravity="center_horizontal"
+                android:id="@+id/start_layout"
+                android:visibility="gone">
+                <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+                    android:id="@+id/start_calendarView"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+
+            <EditText
+                android:id="@+id/editTextTextEndDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/start_layout"
+                style="@style/CustomDateTextAppearance"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:padding="10dp"
+                android:ems="10"
+                android:hint="select end date"
+                android:enabled="false"
+                android:layout_centerHorizontal="true"
+                android:inputType="date" />
+
+            <ImageButton
+                android:id="@+id/imageButtonEndDate"
+                android:layout_width="45dp"
+                android:layout_height="48dp"
+                android:backgroundTint="@color/white"
+                android:scaleType="centerInside"
+                android:src="@drawable/date"
+                android:layout_toEndOf="@id/editTextTextEndDate"
+                android:layout_marginLeft="-50dp"
+                android:layout_alignTop="@id/editTextTextEndDate" />
+
+            <RelativeLayout
+                android:layout_below="@+id/editTextTextEndDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:id="@+id/end_layout"
+                android:visibility="gone">
+                <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+                    android:id="@+id/end_calendarView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/editTextTextEventName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="event name"
+                android:padding="10dp"
+                android:inputType="textPersonName"
+                android:layout_below="@id/end_layout"
+                style="@style/CustomDateTextAppearance"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp" />
+
+<!--            <EditText-->
+<!--                android:id="@+id/editTextTextStartTime"-->
+<!--                android:layout_width="325dp"-->
+<!--                android:layout_height="44dp"-->
+<!--                style="@style/CustomEditText"-->
+<!--                android:layout_below="@id/editTextTextEventName"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:background="@color/white"-->
+<!--                android:ems="10"-->
+<!--                android:hint=" select start time"-->
+<!--                android:enabled="false"-->
+<!--                android:inputType="time" />-->
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/imageButtonStartTime"-->
+<!--                android:layout_width="42dp"-->
+<!--                android:layout_height="44dp"-->
+<!--                android:backgroundTint="@color/white"-->
+<!--                android:scaleType="centerInside"-->
+<!--                android:src="@drawable/time"-->
+<!--                android:layout_toEndOf="@id/editTextTextStartTime"-->
+<!--                android:layout_marginLeft="-50dp"-->
+<!--                android:layout_alignTop="@id/editTextTextStartTime" />-->
+<!--            <EditText-->
+<!--                android:id="@+id/editTextTextEndTime"-->
+<!--                android:layout_width="325dp"-->
+<!--                android:layout_height="44dp"-->
+<!--                style="@style/CustomEditText"-->
+<!--                android:layout_below="@id/editTextTextStartTime"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:background="@color/white"-->
+<!--                android:ems="10"-->
+<!--                android:hint=" select end time"-->
+<!--                android:enabled="false"-->
+<!--                android:inputType="time" />-->
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/imageButtonEndTime"-->
+<!--                android:layout_width="42dp"-->
+<!--                android:layout_height="44dp"-->
+<!--                android:backgroundTint="@color/white"-->
+<!--                android:scaleType="centerInside"-->
+<!--                android:src="@drawable/time"-->
+<!--                android:layout_toEndOf="@id/editTextTextEndTime"-->
+<!--                android:layout_marginLeft="-50dp"-->
+<!--                android:layout_alignTop="@id/editTextTextEndTime" />-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_below="@+id/editTextTextEventName"
+            android:id="@+id/main_time_textview_layout"
+            android:visibility="gone"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:id="@+id/time_textview_layout"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/time_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:gravity="center"
+                    android:text="Select time slots" />
+            </RelativeLayout>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/time_textview_layout"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/time_scroll">
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:paddingHorizontal="10dp"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+
+                        android:id="@+id/timeLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/timeLayout2"
+                        android:layout_below="@+id/timeLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                    </LinearLayout>
+                </RelativeLayout>
+            </HorizontalScrollView>
+        </RelativeLayout>
+
+            <Button
+                android:id="@+id/confirmButton"
+                android:layout_width="209dp"
+                android:layout_height="62dp"
+                android:backgroundTint="@color/Blue1"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="REQUEST BOOKING"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/main_time_textview_layout" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

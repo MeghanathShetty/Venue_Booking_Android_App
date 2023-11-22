@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Blue5"
+    tools:context=".homePage"
+    tools:ignore="Hardcoded">
+    <!-- Main content view -->
+    <RelativeLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<!--        <androidx.appcompat.widget.Toolbar-->
+<!--            android:id="@+id/toolbar"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="?attr/actionBarSize"-->
+<!--            android:background="?attr/colorPrimary"-->
+<!--            app:titleTextColor="@android:color/white" />-->
+
+
+    <!--Image Slider ++++++++++++++++++++++++++++-->
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPager"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    <!--    ++++++++++++++++++++++++++++++++++++++++-->
+
+    <LinearLayout
+        android:id="@+id/SliderDots"
+        android:layout_below="@+id/viewPager"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layer0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SliderDots"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/typesTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Explore Variety of venues"
+            android:textSize="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/Blue1"
+            android:fontFamily="sans-serif-condensed-medium"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/mainScroll"
+        android:layout_below="@id/viewPager"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="0dp"
+        android:layout_alignTop="@+id/layer0"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_below="@id/viewPager"
+            android:id="@+id/bot_middlePart"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--        ====================================-->
+            <RelativeLayout
+                android:id="@+id/layer1"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:id="@+id/bot_middlePartSports"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="0dp"
+                        app:cardPreventCornerOverlap="false"
+                        app:cardUseCompatPadding="true">
+
+                        <ImageView
+                            android:id="@+id/sportsImageView"
+                            android:layout_width="180dp"
+                            android:layout_height="110dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/sports" />
+                    </androidx.cardview.widget.CardView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/bot_middlePartEnt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/bot_middlePartSports"
+                    >
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="0dp"
+                        app:cardPreventCornerOverlap="false"
+                        app:cardUseCompatPadding="true">
+
+                        <ImageView
+                            android:id="@+id/entertainmentImageView"
+                            android:layout_width="180dp"
+                            android:layout_height="110dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/entertainment" />
+
+                    </androidx.cardview.widget.CardView>
+                    <!--        ====================================-->
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!--        ====================================-->
+            <RelativeLayout
+                android:id="@+id/layer2"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layer1">
+                <RelativeLayout
+                    android:id="@+id/bot_middlePartEdu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="0dp"
+                        app:cardPreventCornerOverlap="false"
+                        app:cardUseCompatPadding="true">
+
+                        <ImageView
+                            android:id="@+id/educationalImageView"
+                            android:layout_width="180dp"
+                            android:layout_height="110dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/educational" />
+
+                    </androidx.cardview.widget.CardView>
+                </RelativeLayout>
+
+
+                <!--        ====================================-->
+                <RelativeLayout
+                    android:id="@+id/bot_middlePartFit"
+                    android:layout_width="wrap_content"
+                    android:layout_toRightOf="@id/bot_middlePartEdu"
+                    android:layout_height="wrap_content">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="0dp"
+                        app:cardPreventCornerOverlap="false"
+                        app:cardUseCompatPadding="true">
+
+                        <ImageView
+                            android:id="@+id/artsImageView"
+                            android:layout_width="180dp"
+                            android:layout_height="110dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/arts" />
+
+                    </androidx.cardview.widget.CardView>
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layer3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/layer2">
+
+                <RelativeLayout
+                    android:id="@+id/bot_middlePartSwim"
+                    android:layout_width="match_parent"
+                    android:paddingBottom="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView5"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="0dp"
+                        app:cardPreventCornerOverlap="false"
+                        app:cardUseCompatPadding="true">
+
+                        <ImageView
+                            android:id="@+id/fitnessImageView"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/fitness" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <!--        ====================================-->
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/Blue1"
+            app:itemIconTint="@color/Blue5"
+            app:menu="@menu/bottom_navigation_menu" />
+    </RelativeLayout>
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/Blue5"
+            app:headerLayout="@layout/nav_header"
+            android:layout_gravity="start"
+            app:menu="@menu/main_menu" />
+</androidx.drawerlayout.widget.DrawerLayout>

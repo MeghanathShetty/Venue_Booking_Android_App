@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:gravity="center"
+android:background="@color/Blue5">
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:paddingHorizontal="15dp"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center"
+            android:text="VENUE DETAILS"
+            android:textSize="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+
+<EditText
+    android:id="@+id/name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@color/white"
+    android:ems="10"
+    android:hint="venue name"
+    android:inputType="text"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@id/textViewTitle"
+    android:layout_marginTop="30dp"/>
+
+<Spinner
+    android:id="@+id/type"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@id/name"
+    android:layout_marginTop="20dp" />
+
+<EditText
+    android:id="@+id/description"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:ems="10"
+    android:hint="description"
+    android:padding="10dp"
+    android:inputType="textMultiLine"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@id/type"
+    android:layout_marginTop="20dp"/>
+
+
+<EditText
+    android:id="@+id/location"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@color/white"
+    android:ems="10"
+    android:hint="location"
+    android:inputType="text"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@id/description"
+    android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/img_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:ems="10"
+        android:hint="Paste venue image link here"
+        android:inputType="text"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/location"
+        android:layout_marginTop="20dp"/>
+
+<Button
+    android:id="@+id/addVenueBtn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/Blue1"
+    android:paddingVertical="15dp"
+    android:paddingHorizontal="30dp"
+    android:textColor="@color/white"
+    android:fontFamily="sans-serif-condensed-medium"
+    android:text="ADD VENUE"
+    android:textSize="20dp"
+    app:cornerRadius="10dp"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@id/img_path"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="30dp"/>
+
+        </RelativeLayout>
+</ScrollView>
+</RelativeLayout>
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="@color/Blue1">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/explore_logo1"></ImageView>
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unlock Your Perfect Venue"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_marginBottom="100dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="@color/Blue5"
+        android:gravity="center"
+        android:layout_below="@+id/logoImageView">
+    </TextView>
+
+</RelativeLayout>

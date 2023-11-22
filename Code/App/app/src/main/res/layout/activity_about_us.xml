@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="@color/Blue4"
+    tools:context=".aboutUs">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+<RelativeLayout
+    android:id="@+id/logoLayer"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="350dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/explore_logo2" />
+</RelativeLayout>
+
+    <TextView
+        android:id="@+id/about_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+
+        android:text="About Us"
+        android:paddingLeft="10dp"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/logoLayer"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/about_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/about_title"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Explore MIT is a venue booking app designed to make finding and booking venues a breeze. Whether you're planning an event, a sports game, or a workshop, our app has you covered. With a wide range of venues and easy-to-use features, Explore MIT is your go-to solution for all your venue booking needs."
+        android:layout_gravity="center"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/copyright_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Copyright © 2023 Explore MIT. All Rights Reserved."
+        android:textSize="16sp"
+        android:layout_below="@+id/about_description"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="50dp"
+         android:layout_centerHorizontal="true"
+        android:layout_gravity="center" />
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>
