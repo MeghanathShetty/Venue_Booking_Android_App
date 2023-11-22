@@ -22,42 +22,62 @@ For email services to work give all permissions for the app manually in phone ap
 
    
 ## ------- Preview -------
+
 ## User Side
+
 ### Login-Page
-![WhatsApp Image 2023-11-22 at 12 10 18_01b63dc8](https://github.com/MeghanathShetty/venue_Booking_Android_App/assets/127648939/0f82fa3c-2aad-4299-8d27-d7fa3b8c736a)
+![WhatsApp Image 2023-11-22 at 12 10 18_0b66557a](https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/a933dbb5-9732-44bc-9a30-2c49e26cfb3f)
+
 ### Register-Page
-![WhatsApp Image 2023-11-22 at 12 16 21_3c9c9e0f](https://github.com/MeghanathShetty/venue_Booking_Android_App/assets/127648939/ece77a1b-aa7c-4c61-8c18-3253078f7f98)
+![WhatsApp Image 2023-11-22 at 12 16 21_c851635c](https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/592520be-4e3e-43b8-acaa-82f0b037bff1)
+
 ### User Home-Page
-![WhatsApp Image 2023-11-22 at 12 16 21_66d45112](https://github.com/MeghanathShetty/venue_Booking_Android_App/assets/127648939/9a88f185-b14b-4f2c-80cc-12c4761ea42d)
-![WhatsApp Image 2023-11-22 at 12 19 44_b914bf6f](https://github.com/MeghanathShetty/venue_Booking_Android_App/assets/127648939/efcafafd-28ef-4fed-a02d-4945acef78d3)
+![WhatsApp Image 2023-11-22 at 12 16 21_b2c35cc4](https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/ec2fb37a-055f-4f6c-b14b-38ef2df3d2b6)
+![WhatsApp Image 2023-11-22 at 12 19 44_bb6b3937](https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/4636ee9b-99bc-4ff2-8800-0408f96eeb6e)
+
 ### User-Profile and Update Page
-![WhatsApp Image 2023-11-22 at 12 16 21_1f913c34](https://github.com/MeghanathShetty/venue_Booking_Android_App/assets/127648939/60a6f173-dc62-4f1d-bda5-c5eefc0fae11)
-![WhatsApp Image 2023-11-22 at 12 19 05_06ef6f6a](https://github.com/MeghanathShetty/venue_Booking_Android_App/assets/127648939/adbb5709-8102-4d32-990c-7343d5c28a27)
+![WhatsApp Image 2023-11-22 at 12 16 21_811d9cff](https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/fdd9e0ed-3372-43f0-8ab6-208bc4d9d020)
+![WhatsApp Image 2023-11-22 at 12 19 05_46500712](https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/43466e28-91f7-4f00-894a-134aefc5079e)
+
 ### User Current Transaction 
-![WhatsApp Image 2023-11-22 at 12 19 06_bc474970](https://github.com/MeghanathShetty/venue_Booking_Android_App/assets/127648939/da6fe126-59b7-4e87-90b7-9f3c4b8070d0)
+![WhatsApp Image 2023-11-22 at 12 19 44_81b82271](https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/ebba7a24-16ac-431f-b431-261c4e25908f)
+
 ### User Booking History
-![WhatsApp Image 2023-11-22 at 12 19 06_cd807654](https://github.com/MeghanathShetty/venue_Booking_Android_App/assets/127648939/584e84fb-4fe0-4c25-a9cc-727c8e23e80c)
+![WhatsApp Image 2023-11-22 at 12 19 06_fc17f0d8](https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/5b017f8f-95a9-4a9f-8a2c-f646a2f98de2)
+
 ### View Venues
-![WhatsApp Image 2023-11-22 at 12 19 44_3111e9bd](https://github.com/MeghanathShetty/venue_Booking_Android_App/assets/127648939/6c3b679f-7c0c-416b-bdb6-45a40be13f60)
+![WhatsApp Image 2023-11-22 at 12 19 44_4fa021b2](https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/ed2f21d5-c994-476b-88be-d6e03782481b)
+
 ### Check Availablility
-![WhatsApp Image 2023-11-22 at 12 27 24_c5cc5aa4](https://github.com/MeghanathShetty/venue_Booking_Android_App/assets/127648939/8f6ad085-1e26-42d4-88e8-883a2f890bbb)
+![WhatsApp Image 2023-11-22 at 12 27 24_db6db6aa](https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/7668cb37-5036-45db-8ed6-579ba16010f5)
+
 ### Venue Description Page
-![WhatsApp Image 2023-11-22 at 12 26 35_27b350f5](https://github.com/MeghanathShetty/venue_Booking_Android_App/assets/127648939/7209ca07-34df-4b65-9fdf-ffdb6e3341d0)
+![WhatsApp Image 2023-11-22 at 12 26 35_affb91ef](https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/3528bc04-202c-4a8c-8919-a3edfd339007)
+
 ### Book Venue Page
-![WhatsApp Image 2023-11-22 at 12 19 45_32b554e7](https://github.com/MeghanathShetty/venue_Booking_Android_App/assets/127648939/c95fcbe1-7d8a-43d9-aba7-bff0fbbecc77)
-![WhatsApp Image 2023-11-22 at 12 19 46_0142c11b](https://github.com/MeghanathShetty/venue_Booking_Android_App/assets/127648939/7373e2eb-22a0-4cd2-8d7c-2789cf9b29da)
+![WhatsApp Image 2023-11-22 at 12 20 12_bcbfe667](https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/12dc7e41-963f-453f-b3b4-9575336840b9)
+![WhatsApp Image 2023-11-22 at 12 19 46_a0c1f78d](https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/6cd79bff-4d14-4ae0-af01-98aaf75e80e4)
+![WhatsApp Image 2023-11-22 at 12 19 45_3807493c](https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/3f057fdf-29a7-46f3-b1ba-9762891ce2f7)
+
 
 ## Admin Page
+
 ### Admin Home Page
-![WhatsApp Image 2023-11-22 at 12 33 21_e61c7f3b](https://github.com/MeghanathShetty/venue_Booking_Android_App/assets/127648939/bbd83450-da34-429a-a6de-4e00614ee050)
+![WhatsApp Image 2023-11-22 at 12 33 21_d39d104c](https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/9740341c-5cb2-4b22-a66e-fc51be64bcd5)
+
 ### Add Venue Page
-![WhatsApp Image 2023-11-22 at 12 33 21_e65c93bc](https://github.com/MeghanathShetty/venue_Booking_Android_App/assets/127648939/ad063e07-319d-4f60-a088-89cc25063aaf)
+![WhatsApp Image 2023-11-22 at 12 33 21_f34caa66](https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/3d92d9c7-6bf3-4b43-bcb9-d612af9a9d22)
+
 ### View All Venues
-![WhatsApp Image 2023-11-22 at 12 33 23_623ac432](https://github.com/MeghanathShetty/venue_Booking_Android_App/assets/127648939/5b2dd6bc-b1e3-4e9d-bdb1-357a540bfda5)
+![WhatsApp Image 2023-11-22 at 12 33 23_7a07bd0c](https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/254d827a-2daf-4edc-a472-5be12b769fdb)
+
 ### Edit Venue / Delete venue
-![WhatsApp Image 2023-11-22 at 12 33 23_ca00fdad](https://github.com/MeghanathShetty/venue_Booking_Android_App/assets/127648939/4478b6d9-5c5e-4ec9-8082-67aa53b70e48)
-![WhatsApp Image 2023-11-22 at 12 33 28_7e192c9c](https://github.com/MeghanathShetty/venue_Booking_Android_App/assets/127648939/53ced443-d5be-48f3-a8d2-2d8a59d1339b)
+![WhatsApp Image 2023-11-22 at 12 33 23_26e803d8](https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/faf4a79b-57f7-49d4-9fc8-3d3284741a45)
+![WhatsApp Image 2023-11-22 at 12 33 28_99726208](https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/92e23515-bed3-4c2d-93ea-1c12b7689405)
+
 ### Currently Booked Venues
-![WhatsApp Image 2023-11-22 at 12 33 24_245386ee](https://github.com/MeghanathShetty/venue_Booking_Android_App/assets/127648939/49bb96a1-9c4f-408c-b0f4-27c4e038a91d)
+![WhatsApp Image 2023-11-22 at 12 33 24_a45c79ce](https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/3dff70c1-aa6a-47da-af73-35280223960c)
+
 ### View All users
-![WhatsApp Image 2023-11-22 at 12 33 24_36db13de](https://github.com/MeghanathShetty/venue_Booking_Android_App/assets/127648939/f179598d-c79d-44ff-9af0-c331aaea8bd8)
+![WhatsApp Image 2023-11-22 at 12 33 24_00babe07](https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/d10b18b9-a927-4e8c-a2da-a6f38514963f)
+
