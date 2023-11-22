@@ -1,5 +1,4 @@
 # ExploreMit venueBooking Android App
-# Hello
 
 ## ------- User Guide -------
 User and admin-side both are in one App itself.
