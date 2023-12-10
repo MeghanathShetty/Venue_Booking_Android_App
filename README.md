@@ -26,18 +26,18 @@ For email services to work give all permissions for the app manually in phone ap
 ## User Side
 
 ### Login-Page
-![WhatsApp Image 2023-11-22 at 12 10 18_0b66557a](https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/a933dbb5-9732-44bc-9a30-2c49e26cfb3f)
+<img src="https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/a933dbb5-9732-44bc-9a30-2c49e26cfb3f" alt="Image Alt Text" style="width:300px;" />
 
 ### Register-Page
-![WhatsApp Image 2023-11-22 at 12 16 21_c851635c](https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/592520be-4e3e-43b8-acaa-82f0b037bff1)
+<img src="https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/592520be-4e3e-43b8-acaa-82f0b037bff1" alt="Image Alt Text" style="width:300px;" />
 
 ### User Home-Page
-![WhatsApp Image 2023-11-22 at 12 16 21_b2c35cc4](https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/ec2fb37a-055f-4f6c-b14b-38ef2df3d2b6)
-![WhatsApp Image 2023-11-22 at 12 19 44_bb6b3937](https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/4636ee9b-99bc-4ff2-8800-0408f96eeb6e)
+<img src="https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/ec2fb37a-055f-4f6c-b14b-38ef2df3d2b6" alt="Image Alt Text" style="width:300px;" />
+<img src="https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/4636ee9b-99bc-4ff2-8800-0408f96eeb6e" alt="Image Alt Text" style="width:300px;" />
 
 ### User-Profile and Update Page
-![WhatsApp Image 2023-11-22 at 12 16 21_811d9cff](https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/fdd9e0ed-3372-43f0-8ab6-208bc4d9d020)
-![WhatsApp Image 2023-11-22 at 12 19 05_46500712](https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/43466e28-91f7-4f00-894a-134aefc5079e)
+<img src="https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/fdd9e0ed-3372-43f0-8ab6-208bc4d9d020" alt="Image Alt Text" style="width:300px;" />
+<img src="https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/43466e28-91f7-4f00-894a-134aefc5079e" alt="Image Alt Text" style="width:300px;" />
 
 ### User Current Transaction 
 ![WhatsApp Image 2023-11-22 at 12 19 44_81b82271](https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/ebba7a24-16ac-431f-b431-261c4e25908f)
