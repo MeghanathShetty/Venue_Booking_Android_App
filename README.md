@@ -53,8 +53,10 @@ For email services to work give all permissions for the app manually in phone ap
 
 ### Book Venue Page
 <img src="https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/12dc7e41-963f-453f-b3b4-9575336840b9" alt="Image Alt Text" style="width:300px;" />
+
 ### Book Venue Page ( Multiple Days Booking )
 <img src="https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/6cd79bff-4d14-4ae0-af01-98aaf75e80e4" alt="Image Alt Text" style="width:300px;" />
+
 ### Book Venue Page ( Same day,Time-Slot Booking )
 <img src="https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/3f057fdf-29a7-46f3-b1ba-9762891ce2f7" alt="Image Alt Text" style="width:300px;" />
 
