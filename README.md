@@ -24,18 +24,16 @@ For email services to work give all permissions for the app manually in phone ap
 ## ------- Preview -------
 
 ## User Side
-### Login-Page
-<img src="https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/a933dbb5-9732-44bc-9a30-2c49e26cfb3f" alt="Image Alt Text" style="width:300px;" />
-
-### Register-Page
+### Login-Page / Register-Page
+<img src="https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/a933dbb5-9732-44bc-9a30-2c49e26cfb3f" alt="Image Alt Text" style="width:300px;" />...
 <img src="https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/592520be-4e3e-43b8-acaa-82f0b037bff1" alt="Image Alt Text" style="width:300px;" />
 
 ### User Home-Page
-<img src="https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/ec2fb37a-055f-4f6c-b14b-38ef2df3d2b6" alt="Image Alt Text" style="width:300px;" />
+<img src="https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/ec2fb37a-055f-4f6c-b14b-38ef2df3d2b6" alt="Image Alt Text" style="width:300px;" />...
 <img src="https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/4636ee9b-99bc-4ff2-8800-0408f96eeb6e" alt="Image Alt Text" style="width:300px;" />
 
 ### User-Profile and Update Page
-<img src="https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/fdd9e0ed-3372-43f0-8ab6-208bc4d9d020" alt="Image Alt Text" style="width:300px;" />
+<img src="https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/fdd9e0ed-3372-43f0-8ab6-208bc4d9d020" alt="Image Alt Text" style="width:300px;" />...
 <img src="https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/43466e28-91f7-4f00-894a-134aefc5079e" alt="Image Alt Text" style="width:300px;" />
 
 ### User Current Transactions
@@ -55,9 +53,9 @@ For email services to work give all permissions for the app manually in phone ap
 
 ### Book Venue Page
 <img src="https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/12dc7e41-963f-453f-b3b4-9575336840b9" alt="Image Alt Text" style="width:300px;" />
-#### Book Venue Page ( Multiple Days Booking )
+### Book Venue Page ( Multiple Days Booking )
 <img src="https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/6cd79bff-4d14-4ae0-af01-98aaf75e80e4" alt="Image Alt Text" style="width:300px;" />
-#### Book Venue Page ( Same day,Time-Slot Booking )
+### Book Venue Page ( Same day,Time-Slot Booking )
 <img src="https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/3f057fdf-29a7-46f3-b1ba-9762891ce2f7" alt="Image Alt Text" style="width:300px;" />
 
 ## Admin Page
@@ -71,9 +69,8 @@ For email services to work give all permissions for the app manually in phone ap
 <img src="https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/254d827a-2daf-4edc-a472-5be12b769fdb" alt="Image Alt Text" style="width:300px;" />
 
 ### Edit Venue / Delete venue
-<img src="https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/faf4a79b-57f7-49d4-9fc8-3d3284741a45" alt="Image Alt Text" style="width:300px;" />
+<img src="https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/faf4a79b-57f7-49d4-9fc8-3d3284741a45" alt="Image Alt Text" style="width:300px;" />...
 <img src="https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/92e23515-bed3-4c2d-93ea-1c12b7689405" alt="Image Alt Text" style="width:300px;" />
-
 
 ### Currently Booked Venues
 <img src="https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/3dff70c1-aa6a-47da-af73-35280223960c" alt="Image Alt Text" style="width:300px;" />
