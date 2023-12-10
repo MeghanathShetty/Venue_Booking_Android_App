@@ -38,7 +38,7 @@ For email services to work give all permissions for the app manually in phone ap
 <img src="https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/fdd9e0ed-3372-43f0-8ab6-208bc4d9d020" alt="Image Alt Text" style="width:300px;" />
 <img src="https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/43466e28-91f7-4f00-894a-134aefc5079e" alt="Image Alt Text" style="width:300px;" />
 
-### User Current Transaction 
+### User Current Transactions
 <img src="https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/ebba7a24-16ac-431f-b431-261c4e25908f" alt="Image Alt Text" style="width:300px;" />
 
 ### User Booking History
@@ -55,7 +55,9 @@ For email services to work give all permissions for the app manually in phone ap
 
 ### Book Venue Page
 <img src="https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/12dc7e41-963f-453f-b3b4-9575336840b9" alt="Image Alt Text" style="width:300px;" />
+
 <img src="https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/6cd79bff-4d14-4ae0-af01-98aaf75e80e4" alt="Image Alt Text" style="width:300px;" />
+
 <img src="https://github.com/MeghanathShetty/venueBooking_Android_App/assets/127648939/3f057fdf-29a7-46f3-b1ba-9762891ce2f7" alt="Image Alt Text" style="width:300px;" />
 
 ## Admin Page
